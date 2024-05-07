@@ -17,16 +17,16 @@ export default function App() {
       resizeMode="contain"
       source={require('../../assets/facebook.png')}
      />
-      <InputTexto label="Número de celularou email" dica="Número de celularou email"/>
-      <InputTexto valor={atualizaTexto} label="Senha" dica="Senha"/>
+      <InputTexto dica="Número de celular ou email"/>
+      <InputTexto dica="Senha"/>
 
-      <Botao btn="Entrar" cor='#1877F2' src='home' />
+      <Botao btn="Entrar" cor='#1877F2' src='home' cortexto='#fff' tm='35%' />
       <View style={styles.cont}>
         <View style={styles.line}/>
         <Text style={styles.text}>ou</Text>
         <View style={styles.line}/>
       </View>
-      <Botao btn="Criar nova conta" cor='' src='cadastrar' />
+      <Botao btn="Criar nova conta" cor='' src='Excluído' cortexto='#000' tm='10%' />
     </View>
   );
 }
